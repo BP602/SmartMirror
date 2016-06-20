@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  box-sizing: border-box;
+  font-family: Raleway;
+  background: #000;
+  color:#fff;
+}
+.left{
+  float: left;
+  width: 50%;
+}
+
+.right{
+  float: right;
+  width: 50%;
+}
+.row{
+  overflow: auto;
+}
+.center{
+  height:20%;
+  text-align: center;
+}
+
+.notes{
+  margin: 0 auto;
+}
+.note{
+  padding-top: 20px;
+  width: 90%;
+}
+.note h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+}
+.note pre {
+  font-size: 1.1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+}
+
+.weather {
+  padding-top: 20px;
+  text-align:right;
+  width: 90%;
+}
+.weather h1, .weather h2, .weather p, .weather i{
+  display: inline-block;
+}
+.weather-main h1{
+  font-size: 2em;
+  padding-right:20px;
+}
+.weather-main i{
+  font-size: 4em;
+}
+.weather-week i{
+  font-size: 2em;
+}
+.weather-week h3{
+  font-size: 1.1em;
+  margin-left:200px;
+}
+.weather-week-day{
+  display:inline-block;
+  padding: 0 5px;
+}
+
+.welcome{
+  margin-top:15%;
+}
+#clock{
+  font-size: 2em;
+}

@@ -1,0 +1,26 @@
+users
+	random user id
+		name
+		surname
+		face recognition image(base64)
+		accounts
+			facebook
+				apikey
+				url
+			twitter
+				apikey
+				url
+		weather
+			random city id
+				title
+				temperature
+				icon
+				url
+				event
+			random city id
+				title
+				temperature
+				icon
+				url
+				event
+		api key
